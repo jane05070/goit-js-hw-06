@@ -28,9 +28,9 @@ const images = [
 
 const gallery = document.querySelector(".gallery");
 
-const item = images.map (image => 
+const item = images.map(image => 
     `<li class="item-task-three"> 
-    <img class="image-task-three" scr ="${image.url}" alt="${image.alt}">
+    <img class="image-task-three" src="${image.url}" alt="${image.alt}">
         </li>`
 ).join("");
 
