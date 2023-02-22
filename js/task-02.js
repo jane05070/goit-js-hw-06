@@ -27,3 +27,4 @@ const liElements = ingredients.map(ingredient => {
 ul.append(...liElements);
 
 console.log(ul);
+

@@ -26,18 +26,13 @@ const images = [
 ];
 
 
-const gallery = document.querySelector(".gallery");
 
-const item = images.map(image => 
-    `<li class="item-task-three"> 
-    <img class="image-task-three" src="${image.url}" alt="${image.alt}">
-        </li>`
-).join("");
+const gallery = document.querySelector('.gallery');
+
+const item = images.map(image => `<li class= 'item-task-three'>
+<img class= 'image-task-three' src = '${image.url}' alt='${image.alt}'></li>
+`).join('');
 
 gallery.insertAdjacentHTML("beforeend", item);
 
-
-
-console.log (gallery)
-
-
+console.log(gallery);

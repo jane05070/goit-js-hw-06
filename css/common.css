@@ -28,13 +28,17 @@ button {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .item-task-three{
-padding: 10px;
+padding: auto;
 }
 
 .image-task-three{
 display: block;
-width: 200px;
+width: 300px;
+height: 200px;
+
+
 }
